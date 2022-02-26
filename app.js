@@ -12,7 +12,7 @@ const path = require("path");
 
 mongoose
 	.connect(
-		"mongodb+srv://HC:Test2@cluster0.rsw5v.mongodb.net/db?retryWrites=true&w=majority",
+		"mongodb+srv://DB_USER:DB_PASSWORD@cluster0.rsw5v.mongodb.net/DB_NAME?retryWrites=true&w=majority",
 		{ useNewUrlParser: true, useUnifiedTopology: true }
 	)
 	.then(() => console.log("Connexion à MongoDB réussie !"))
